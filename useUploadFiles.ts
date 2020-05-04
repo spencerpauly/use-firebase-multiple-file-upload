@@ -12,12 +12,6 @@ type StateType = {
 
 const initialState: StateType[] = [];
 
-// const initialState: StateType = {
-// 	data: [],
-// 	loadingPercentages: [],
-// 	errors: [],
-// };
-
 function getIndex(arr: StateType[], id: string) {
 	return arr.findIndex((x) => x.localFileId === id);
 }
